@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 200px;
+    background-color: rgb(26, 110, 110);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links{
+    list-style: none;
+    display: flex;
+    gap: 6.25rem;
+}
+
+.navbar-item{
+    margin-right: 1.25rem;
+}
+
+.navbar a:hover{
+    color: chocolate;
+}
+.navbar a{
+    color: rgb(26, 255, 255);
+    text-decoration: none;
+}
+
+.logo{
+    width: 11.25rem;
+    margin-left: 10%;
+}
+
+.carrito{
+    position: relative;
+    margin-right: 10%;
+}
+
+.logoCarrito{
+    width: 3.125rem;
+}
+
+.cantidad{
+    position: absolute;
+    width: 1.25rem;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(26, 255, 255);
+    color: chocolate;
+    font-size: 1.25rem;
+    border-radius: 20%;
+    border-color: rgb(26, 255, 255);
+}

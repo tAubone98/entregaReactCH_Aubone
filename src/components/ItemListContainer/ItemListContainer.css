@@ -1,0 +1,11 @@
+.mensajeBienvenida{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.mensajeBienvenida h2{
+    padding: 1%;
+    border: solid 5px rgb(26, 110, 110);
+    border-radius: 10px;
+}
