@@ -1,11 +1,5 @@
-.mensajeBienvenida{
-    margin-top: 2%;
+.cards-container{
+    margin-top: 3.125rem;
     display: flex;
     justify-content: center;
-}
-
-.mensajeBienvenida h2{
-    padding: 1%;
-    border: solid 5px rgb(26, 110, 110);
-    border-radius: 10px;
 }

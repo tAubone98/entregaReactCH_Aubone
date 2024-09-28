@@ -1,0 +1,10 @@
+.columna{
+    margin-top: 3.125rem;
+}
+.card-button{
+    display: flex;
+    justify-content: center;
+}
+.btn.btn-primary.btn-lg{
+    background-color: rgb(6, 92, 139);
+}

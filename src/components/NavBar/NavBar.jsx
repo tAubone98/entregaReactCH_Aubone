@@ -1,26 +1,30 @@
 import "./NavBar.css"
-import logo from "../../assets/logo.png"
+import logo from "../../assets/logo.jpg"
 import CartWidget from "../CartWidget/CartWidget"
+import { Link, Outlet } from "react-router-dom";
 
 function NavBar() {
     return (
-        <nav className="navbar">
-            <div>
-                <img className="logo" src={logo} alt="Logo tienda" />
-            </div>
-            <ul className="navbar-links">
-                <li className="navbar-item">
-                    <a href="#">INICIO</a>
-                </li>
-                <li className="navbar-item">
-                    <a href="#">COMPONENTES</a>
-                </li>
-                <li className="navbar-item">
-                    <a href="#">PRE-ENSAMBLADOS</a>
-                </li>
-            </ul>
-            <CartWidget/>
-        </nav>
+        <>
+            <nav className="navbar">
+                <Link to={"/PreEntrega2_Aubone/"}>
+                    <img className="logo" src={logo} alt="Logo tienda" />
+                </Link>
+                <ul className="navbar-links">
+                    <Link to={"/PreEntrega2_Aubone/"} className="navbar-item">
+                        Todos los Productos
+                    </Link>
+                    <Link to={"/PreEntrega2_Aubone/category/Perros"} className="navbar-item">
+                        Perros
+                    </Link>
+                    <Link to={"/PreEntrega2_Aubone/category/Gatos"} className="navbar-item">
+                        Gatos
+                    </Link>
+                </ul>
+                <CartWidget/>
+            </nav>
+            <Outlet/>
+        </>
     )
 }
 

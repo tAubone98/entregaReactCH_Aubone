@@ -10,10 +10,10 @@ body{
 
 .navbar{
     display: flex;
-    height: 200px;
-    background-color: rgb(26, 110, 110);
+    height: 7.5rem;
+    background-color: rgb(6, 92, 139);
+    border-bottom: solid black;
     justify-content: space-between;
-    align-items: center;
 }
 
 .navbar-links{
@@ -24,24 +24,29 @@ body{
 
 .navbar-item{
     margin-right: 1.25rem;
+    margin-bottom: 2%;
 }
 
 .navbar a:hover{
     color: chocolate;
 }
 .navbar a{
-    color: rgb(26, 255, 255);
+    color: rgb(130, 211, 255);
     text-decoration: none;
 }
 
 .logo{
     width: 11.25rem;
     margin-left: 10%;
+    border-radius: 20%;
+    border-color: black;
+    border-style: solid;
 }
 
 .carrito{
     position: relative;
     margin-right: 10%;
+    margin-bottom: 2%;
 }
 
 .logoCarrito{
@@ -54,9 +59,9 @@ body{
     text-align: center;
     left: 0;
     bottom: 0;
-    background-color: rgb(26, 255, 255);
-    color: chocolate;
+    background-color: rgb(130, 211, 255);
+    color: black;
     font-size: 1.25rem;
     border-radius: 20%;
-    border-color: rgb(26, 255, 255);
+    border-color: rgb(130, 211, 255);
 }
